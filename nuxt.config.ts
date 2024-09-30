@@ -14,11 +14,6 @@ export default defineNuxtConfig({
 
       defaultAvatar: '/img/9496.svg',
       baseURL: process.env.BASE_URL || 'http://localhost:3000',  // Setze die Basis-URL
-      chainId: process.env.APP_CHAIN_ID,
-
-      rpc1: process.env.APP_RPC1,
-      rpc2: process.env.APP_RPC2,
-      rpc3: process.env.APP_RPC3,
 
       projects: [
         {

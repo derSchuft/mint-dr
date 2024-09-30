@@ -36,7 +36,7 @@ export default defineNuxtConfig({
   },
 
   extends: [
-    '..', // Extend our theme
+    //'..', // Extend our theme
     '@visualizevalue/mint-app-base', // Extend the base layer
   ],
 

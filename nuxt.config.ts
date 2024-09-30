@@ -9,12 +9,6 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
 
-      description: 'To mint is a human right.',
-      title: 'mint',
-
-      defaultAvatar: '/img/9496.svg',
-      baseURL: process.env.BASE_URL || 'http://localhost:3000',  // Setze die Basis-URL
-
       projects: [
         {
           title: 'PunkApepen',

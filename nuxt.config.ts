@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       walletAddress: process.env.NUXT_PUBLIC_WALLET_ADDRESS || '',
+      defaultAvatar: '/icons/PunkApepen-9496.svg',
 
       projects: [
         {

@@ -1,0 +1,20 @@
+# for now...
+api
+app/layer-example
+app/example-2
+
+node_modules
+.env
+
+.cache
+.DS_Store
+.nitro
+.nuxt
+.output
+.vscode
+*.log*
+build
+coverage
+dist
+tmp
+

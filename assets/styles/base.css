@@ -1,0 +1,53 @@
+html {
+  /*
+  * Color settings
+  */
+  background-color: var(--background);
+  color: var(--color);
+
+  /*
+  * Font settings
+  */
+  font-size: var(--rem);
+  font-family: var(--font-family);
+  line-height: var(--line-height-base);
+  font-weight: var(--font-weight);
+  font-style: normal;
+  letter-spacing: var(--letter-spacing);
+  text-transform: var(--text-transform);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  h1 {
+    font-family: var(--font-family);
+    font-size: var(--font-lg);
+    font-weight: bold;
+    color: var(--white);
+  }
+  h1 small,
+  .details,
+  .closed-at {
+    font-size: var(--font-sm)!important;
+    font-family: var(--ui-font-family)!important;
+    color: var(--muted);
+    letter-spacing: var(--ui-letter-spacing);
+    text-transform: var(--ui-text-transform);
+  }
+}
+
+body {
+  /*
+  * We treat font sizes are separate from the root em (--rem) seetting.
+  */
+  font-size: var(--font-base);
+
+  /*
+  * We prevent horizontal overflow
+  */
+  overflow-x: hidden;
+}
+
+

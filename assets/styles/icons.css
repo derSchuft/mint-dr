@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Font Awesome 6 Regular';
+  src: url('~/assets/styles/icons/Font Awesome 6 Free-Regular-400.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Font Awesome 6 Solid';
+  src: url('~/assets/styles/icons/Font Awesome 6 Free-Solid-900.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Font Awesome 6 Brands';
+  src: url('~/assets/styles/icons/Font Awesome 6 Brands-Regular-400.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fa-regular,
+.fa-solid,
+.fa-brands {
+  color: var(--gray-z-4);
+  margin-top: -1px;
+  font-size: 12px;
+  display: inline-block;
+  line-height: 1;
+  vertical-align: middle;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fa-small {
+  font-size: 10px;
+  margin-right: var(--spacer-xs);
+}
+
+.fa-regular {
+  font-family: 'Font Awesome 6 Regular';
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fa-solid {
+  font-family: 'Font Awesome 6 Solid';
+  font-weight: 900;
+  font-style: normal;
+}
+
+.fa-brands {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+  font-style: normal;
+}

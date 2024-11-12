@@ -13,9 +13,9 @@ export default defineNuxtConfig({
           link: 'https://www.punkapepen.com/'
         },
         {
-          title: 'itmightbeart',
-          image: 'https://i.seadn.io/s/primary-drops/0x6d01521974c91f76e7d8d62f30c6e1f74b0b7b1c/33360848:about:media:23467104-316f-4eca-bedf-14151104cd46.png?auto=format&dpr=1&w=750',
-          link: 'https://app.itmightbe.art/',
+          title: 'PunkBlocks',
+          image: 'https://i.seadn.io/s/primary-drops/0x9c7e56f10e655a164dab3b6255e8e4e4d3b67db7/33610711:about:media:b95cd225-5996-4248-bf43-d2955555c82a.png?auto=format&dpr=1&w=750',
+          link: 'https://highlight.xyz/mint/base:0x9C7E56f10E655a164dab3b6255E8E4e4D3b67dB7',
         },
       ]
     },

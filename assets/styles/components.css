@@ -217,8 +217,8 @@ header.profile-header {
 .collections-overview article.collection-overview-card {
   border: none;
   background: var(--collection-background);
-  grid-gap: var(--spacer-sm);
-  gap: var(--spacer-sm);
+  grid-gap: var(--spacer);
+  gap: var(--spacer);
 
   &:has(> a:is(:hover, :active, :focus, .active)) {
     background: var(--collection-background-highlight);

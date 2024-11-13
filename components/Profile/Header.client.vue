@@ -7,13 +7,12 @@
       <div class="profileDetails">
         <h1 @click="() => ! hideAddress && copy(address)">
           <span>{{ name }}</span>
-          <small v-if="copied">copied...</small>
+          <small v-if="copied">{{ $t('profile.address_copied') }}</small>
           <small v-else-if="! hideAddress"><i class="fa-regular fa-small">&#xf0c5;</i>{{ shortAddress(address) }}</small>
         </h1>
       </div>
     </div>
     <p v-if="description">{{ description }}</p>
-    
 
     <slot name="tags">
       <Actions v-if="hasTags">
@@ -30,7 +29,7 @@
         <img :src="project.image" :alt="project.title" />
       </a>
     </div>
-
+    
   </header>
 </template>
 

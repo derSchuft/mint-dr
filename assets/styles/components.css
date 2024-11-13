@@ -226,6 +226,7 @@ header.profile-header {
   }
 
   &:after {
+    display: none;
     content: "\f061"; 
     font-family: 'Font Awesome 6 Solid';
     position: absolute;
@@ -233,6 +234,10 @@ header.profile-header {
     top: 50%; 
     transform: translateY(-50%); 
     color: var(--blue);
+    
+    @media (--sm) {
+      display: block;
+    }
   }
 
   @media (min-width: --md) {

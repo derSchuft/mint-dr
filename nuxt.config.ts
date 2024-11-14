@@ -1,3 +1,8 @@
+import { fileURLToPath } from 'url'
+import { dirname, join } from 'path'
+
+const currentDir = dirname(fileURLToPath(import.meta.url))
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
 
@@ -29,6 +34,16 @@ export default defineNuxtConfig({
     '@base/assets/styles/index.css', // Extend the base theme styles
     '~/assets/styles/theme.css', // Add our own styles
   ],
+  plugins: [
+    '~/plugins/fontawesome.js'
+  ],
+  hooks: {
+    'vite:extendConfig': (config) => {
+      config.optimizeDeps ??= {}
+      config.optimizeDeps.include = config.optimizeDeps.include || []
+      config.optimizeDeps.include.push('@fortawesome/vue-fontawesome')
+    }
+  },
 
   extends: '@visualizevalue/mint-app-base',
   

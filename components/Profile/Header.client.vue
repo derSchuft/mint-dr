@@ -17,7 +17,7 @@
     <slot name="tags">
       <Actions v-if="hasTags">
         <ButtonProfileWebsite :profile="artist" />
-        <ButtonProfileEmail :profile="artist" />
+        <!-- <ButtonProfileEmail :profile="artist" /> -->
         <ButtonProfileTwitter :profile="artist" />
         <ButtonProfileGithub :profile="artist" />
       </Actions>

@@ -83,7 +83,7 @@ header.app-header {
     font-family: var(--ui-font-family);
 
     &::before {
-      font-family: "Font Awesome 6 Free"; 
+      font-family: 'Font Awesome 6 Solid';
       font-weight: 900; 
       content: "\f52f"; 
       margin-right: math(var(--spacer)/2);
@@ -212,7 +212,7 @@ header.profile-header {
 .mint-status {
 
   p::before {
-    font-family: "Font Awesome 6 Free"; 
+    font-family: 'Font Awesome 6 Solid';
     font-weight: 900; 
     content: "\f017"; 
     margin-right: var(--spacer);

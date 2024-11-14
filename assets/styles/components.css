@@ -83,9 +83,9 @@ header.app-header {
     font-family: var(--ui-font-family);
 
     &::before {
-      font-family: "Font Awesome 6 Free"; /* Stelle sicher, dass du die korrekte FontAwesome-Version verwendest */
-      font-weight: 900; /* Für Solid Icons */
-      content: "\f52f"; /* Unicode für das Icon, z.B. fa-dollar-sign */
+      font-family: "Font Awesome 6 Free"; 
+      font-weight: 900; 
+      content: "\f52f"; 
       margin-right: math(var(--spacer)/2);
     }
   }
@@ -160,8 +160,7 @@ header.profile-header {
 #about-gas {
   table:first-of-type {
 
-    border-top: 2px solid var(--gray-z-2);
-    border-bottom: 2px solid var(--gray-z-2);
+    border: 2px solid var(--border-color);
 
     tr:hover {
       background-color: var(--table-highlight);
@@ -182,11 +181,11 @@ header.profile-header {
 
   table:last-of-type {
     
-    border: 2px solid var(--gray-z-2);
+    border: 2px solid var(--border-color);
     border-radius: var(--border-radius);
     th {
       background-color: var(--table-highlight);
-      border-bottom-color: var(--gray-z-2);
+      border-bottom-color: var(--border-color);
 
       &:not(:last-child) {
         border-right-color: var(--gray-z-2);
@@ -204,6 +203,19 @@ header.profile-header {
         }
       }
     }
+  }
+}
+
+/*
+* MINT TIME
+*/
+.mint-status {
+
+  p::before {
+    font-family: "Font Awesome 6 Free"; 
+    font-weight: 900; 
+    content: "\f017"; 
+    margin-right: var(--spacer);
   }
 }
 

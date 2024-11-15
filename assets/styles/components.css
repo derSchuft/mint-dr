@@ -211,7 +211,7 @@ header.profile-header {
 */
 .mint-status {
 
-  p::before {
+  p:first-child:before {
     font-family: 'Font Awesome 6 Solid';
     font-weight: 900; 
     content: "\f017"; 
